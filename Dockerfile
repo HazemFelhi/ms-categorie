@@ -1,5 +1,5 @@
 # Use the official OpenJDK 11 image as the base image
-FROM openjdk:17-oracle
+FROM docker.io/openjdk:17-oracle
 
 # Set the working directory inside the container
 WORKDIR /app
